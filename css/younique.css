@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* color */
+.band {
+  background-color: #837a6e;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.offer {
+  background-color: #d5c9b9;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+.footer {
+  padding-top: 50px;	
+}
+
+/* type */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;	
+  color: #006280;
+}
+p {
+  font-family: 'Titillium Web', sans-serif;	
+}
+h2 {
+  font-size:50px;
+}
+p.quote {
+  font-weight:bold;
+  font-family: 'Titillium Web', sans-serif;
+  font-size:21px;
+  line-height:1;
+  color: #006280;
+  position:absolute;
+  z-index:2;
+}
+p.name {
+  font-style:italic;
+  font-family: 'Titillium Web', sans-serif;
+  font-size:15px;
+  line-height:1;
+  color: #006280;
+  position:absolute;
+  z-index:2;
+}
+p.large {
+  font-size:555%;	
+}
+.band h2 {
+  color: #f8921e;
+}
+.band p {
+  font-family: 'Oswald', sans-serif;	
+  font-weight: light 300;
+  color: #ffffff;
+  font-size:25px;
+}
+.offer h2 {
+  color: #790000;
+}
+h4 {
+  font-family: 'Oswald', sans-serif;	
+  color: #006280;
+  font-size:25px;
+}
+.fa{
+  font-size:65px;
+  color: #d5c9b9;	
+}
+.footer fa{
+  color:#000000;		
+}
