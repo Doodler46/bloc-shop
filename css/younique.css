@@ -5,7 +5,9 @@
 .band {
   background-color: #837a6e;
   padding-top:50px;
-  padding-bottom:50px;
+  padding-bottom:25px;
+  margin-top:50px;
+  margin-bottom:100px;
 }
 .offer {
   background-color: #d5c9b9;
@@ -16,16 +18,47 @@
   padding-top: 50px;	
 }
 
+/*form fields*/
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 2px solid #790000;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; }
+
 /* type */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif;	
   color: #006280;
 }
+focus {
+  font-size:150%;
+  font-weight:600;	
+}
 p {
   font-family: 'Titillium Web', sans-serif;	
+  font-weight:100;
 }
 h2 {
   font-size:50px;
+  line-height:10px;
+  margin-bottom:0;
+}
+h3 {
+  font-size:35px;
+}
+h4 {
+  font-size:25px;
 }
 p.quote {
   font-weight:bold;
@@ -45,30 +78,26 @@ p.name {
   position:absolute;
   z-index:2;
 }
-p.large {
-  font-size:555%;	
+.band p {
+  font-family: 'Oswald', sans-serif;	
+  font-weight:200;
+  color: #ffffff;
+  font-size:25px;
 }
 .band h2 {
   color: #f8921e;
 }
-.band p {
-  font-family: 'Oswald', sans-serif;	
-  font-weight: light 300;
-  color: #ffffff;
-  font-size:25px;
+.band h3{
+  color: #FFFFFF;
+  margin-bottom:0;
 }
-.offer h2 {
+.offer h4 {
   color: #790000;
-}
-h4 {
-  font-family: 'Oswald', sans-serif;	
-  color: #006280;
-  font-size:25px;
 }
 .fa{
   font-size:65px;
   color: #d5c9b9;	
 }
-.footer fa{
+.footer .fa{
   color:#000000;		
 }
