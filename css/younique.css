@@ -34,7 +34,73 @@ select {
   border: 2px solid #790000;
   border-radius: 4px;
   box-shadow: none;
+  box-sizing: border-box; 
+}
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
   box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #f8921e;
+  border-color: #f8921e; 
+  border-radius:10px;
+  font-size:20px;
+  font-weight:600;
+  width:300px;}
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #f8921e;
+  border-color: #f8921e; }
+
+
 
 /* type */
 h1, h2, h3, h4, h5, h6 {
@@ -48,6 +114,14 @@ focus {
 p {
   font-family: 'Titillium Web', sans-serif;	
   font-weight:100;
+}
+a {
+  font-family: 'Oswald', sans-serif;	
+  color: #006280;
+  font-size:25px;
+  font-weight:300;
+  line-height: 3;
+  text-decoration:none;
 }
 h2 {
   font-size:50px;
@@ -101,3 +175,14 @@ p.name {
 .footer .fa{
   color:#000000;		
 }
+.footer a h5{
+  line-height:1;	
+  padding-bottom:25px;
+  margin-bottom:0;
+}
+.footer i {
+  padding-left:40px;
+  padding-right:40px;	
+}
+
+

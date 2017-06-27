@@ -32,7 +32,7 @@
 </head>
 <body>
 
-  <!-- Primary Page Layout
+  <!-- Header
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div class="container">
 	<div class="row">
@@ -40,24 +40,37 @@
 			<center><img src="images/YH-logo.jpg" width="300" alt="logo" style="padding-bottom:40px"/></center>
 		</div>
 	</div>
-    
-	<div class="row">
-    	<div class="four columns">
-			<center><h4>Sign In</h4></center>
-		</div>
-    	<div class="four columns">
-    		<center><h4>Join</h4></center>
-    	</div>
-    	<div class="four columns">
-    		<center><h4>Cart</h4></center>
-		</div>
+</div>
+
+  <!-- Nav Bar
+  -------------------------------------------------  -->  
+<header class="header">
+	<div class="four columns">
+		<a href="#"><center><h4>Sign In</h4></center></a>
 	</div>
- 
+    <div class="four columns">
+    	<a href="#"><center><h4>Join</h4></center></a>
+    </div>
+    <div class="four columns">
+    	<a href="#"><center><h4>Cart</h4></center></a>
+	</div>
+</header>
+
+    
+  <!-- Body content
+  -------------------------------------------------  -->  
+<div class="container">
  	<div class="row">
 		<div class="twelve columns">
-			<img src="images/YH_livingroom.jpg" width="960" alt="home image" style="padding-bottom:20px"/>
+			<div class="cycle-slideshow">
+    			<img width="100%" src="images/YH_livingroom.jpg" style="padding-bottom:20px">
+    			<img width="100%" src="images/intro02.jpg" style="padding-bottom:20px">
+    			<img width="100%" src="images/intro03.jpg" style="padding-bottom:20px">
+    			<img width="100%" src="images/intro04.jpg" style="padding-bottom:20px">
+			</div>
        	</div>
 	</div>
+    
     <div class="row">
         <div class="four columns">
            	<h1>Headline</h1>
@@ -66,26 +79,26 @@
         <div class="four columns">
         	<div class="container">
             	<div class="twelve columns">
-                	<h4>Shop by product</h4>
+                	<a href="#"><h4>Shop by product</h4></a>
                 </div>
             	<div class="twelve columns">
-                	<h4>What’s new today!</h4>
+                	<a href="#"><h4>What’s new today!</h4></a>
                 </div>
             	<div class="twelve columns">
-                	<h4>Create my own</h4>
+                	<a href="#"><h4>Create my own</h4></a>
                 </div>
        		</div>
 		</div>
         <div class="four columns">
         	<div class="container">
             	<div class="twelve columns">
-                	<h4>Sell my designs</h4>
+                	<a href="#"><h4>Sell my designs</h4></a>
                 </div>
             	<div class="twelve columns">
-                	<h4>Deals</h4>
+                	<a href="#"><h4>Deals</h4></a>
                 </div>
             	<div class="twelve columns">
-                	<h4>Track my order</h4>
+                	<a href="#"><h4>Track my order</h4></a>
                 </div>
        		</div>
 		</div>
@@ -134,6 +147,9 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+			<center><a class="button button-primary" href="#">Give it a try!</a></center>
+        </div>
     </div>
 </section>
 
@@ -171,13 +187,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="four columns">
-		    	<h5><center>My account</center></h5>
+		    	<a href="#"><h5><center>My account</center></h5></a>
 		    </div>
 			<div class="four columns">
-    			<h5><center>Track my order</center></h5>
+    			<a href="#"><h5><center>Track my order</center></h5></a>
     		</div>
 			<div class="four columns">
-    			<h5><center>Return policy</center></h5>
+    			<a href="#"><h5><center>Return policy</center></h5></a>
    			</div>
     	</div>
         
@@ -185,38 +201,31 @@
         
 		<div class="row">
 			<div class="three columns">
-    			<h5><center>About us</center></h5>
+    			<a href="#"><h5><center>About us</center></h5></a>
     	    </div>
 			<div class="three columns">
-    			<h5><center>Contact us</center></h5>
+    			<a href="#"><h5><center>Contact us</center></h5></a>
        		</div>
 			<div class="three columns">
-    			<h5><center>Term</center></h5>
+    			<a href="#"><h5><center>Term</center></h5></a>
         	</div>
 			<div class="three columns">
-    			<h5><center>Privacy policy</center></h5>
+    			<a href="#"><h5><center>Privacy policy</center></h5></a>
     	    </div>
     	</div>
-        
+               
         <div class="row" style="margin:50px">
-			<div class="one column">
-        		<i class="fa fa-facebook-square" aria-hidden="true"></i>
-			</div>
-    		<div class="one column">
-        		<i class="fa fa-twitter-square" aria-hidden="true"></i>
-			</div>
-    		<div class="one column">
-				<i class="fa fa-instagram" aria-hidden="true"></i>
-				</div>
-            <div class="one column">
-        		<i class="fa fa-pinterest-square" aria-hidden="true"></i>
+			<div class="twelve columns">
+        		<center><i class="fa fa-facebook-square" aria-hidden="true"></i> <i class="fa fa-twitter-square" aria-hidden="true"></i> <i class="fa fa-instagram" aria-hidden="true"></i> <i class="fa fa-pinterest-square" aria-hidden="true"></i></center>
 			</div>
         </div>
 	</div>
 </footer>
 
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!--End Document-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+
 </body>
 </html>
