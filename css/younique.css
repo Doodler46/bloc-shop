@@ -135,13 +135,12 @@ h4 {
   font-size:25px;
 }
 p.quote {
-  font-weight:bold;
-  font-family: 'Titillium Web', sans-serif;
-  font-size:21px;
-  line-height:1;
-  color: #006280;
-  position:absolute;
-  z-index:2;
+	font-weight: bold;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 21px;
+	line-height: 1;
+	color: #006280;
+	left: 39px;
 }
 p.name {
   font-style:italic;
@@ -149,8 +148,6 @@ p.name {
   font-size:15px;
   line-height:1;
   color: #006280;
-  position:absolute;
-  z-index:2;
 }
 .band p {
   font-family: 'Oswald', sans-serif;	
@@ -184,5 +181,3 @@ p.name {
   padding-left:40px;
   padding-right:40px;	
 }
-
-
